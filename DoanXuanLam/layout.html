@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food & Wine Pairing</title>
+    <h1>Food & Wine Pairing</h1>
+    <p>A fabulous, fun and educational Chef's table where you experience a French food and wine pairing in the comfort
+        of our intimate cooking school in Montmartre.<br>
+    </p>
+    <p>Here is a sample of what you might expect:</p>
+    <ul>
+        <li>Sea bass carpaccio with pink peppercorn and elderflower</li>
+        <li>Scrambled eggs with truffle</li>
+        <li>Duck with orange & glazed turnip</li>
+        <li>Comté cheese, sliced ​​pear with Sichuan pepper</li>
+    </ul>
+    <p>We look forward to greeting you at our cooking school</p>
+
+    <table border="1" style="width:40%">
+        <tr>
+            <th></th>
+            <th>Class 1</th>
+            <th>Class 2</th>
+            <th>Class 3</th>
+        </tr>
+        <tr>
+            <th>Choux Paris</th>
+            <td>Sat, 4 Feb 2015
+                8am - 11am</td>
+            <td>Sat, 3 Mar 2015
+                2pm - 5pm </td>
+            <td>10 Mar 2015
+                8am - 11am</td>
+        </tr>
+
+        <tr>
+            <th>French Bistro Desserts</th>
+            <td>Sat, 7 Apr 2015
+                8am - 11am </td>
+            <td>Sat, 5 May 2015
+                8am - 11am </td>
+            <td>12 May 2015
+                1pm - 4pm</td>
+        </tr>
+
+        <tr>
+            <th>French Dessert for Kids</th>
+            <td>Sat, 9 Jun 2012
+                8am - 11am</td>
+            <td>Sat, 7 Jul 2012
+                2pm - 5pm</td>
+            <td>Sat, 21 Jul 2012
+                8am - 11am</td>
+        </tr>
+        <tr>
+            <th>Cheese & Wine</th>
+            <td>Sat, 4 Aug 2015
+                8am - 11am </td>
+            <td>Sat, 8 Sep 2015
+                2pm - 5pm </td>
+            <td>Sat, 15 Sep 2015
+                8am - 11am</td>
+        </tr>
+    </table><br>
+    <FORM NAME="THÔNG TIN CÁ NHÂN" ACTION="XULI.PHP" METHOD="POST">
+        <fieldset>
+            <legend>Register your class</legend>
+            <table style="width:30%">
+                <tr>
+                    <td><LABEL FOR="FNAME">Your name </LABEL></td>
+                    <td> <INPUT TYPE="TEXT" ID="FNAME" NAME="FNAME" VALUE=""><BR></td>
+                </tr>
+                <tr>
+                    <td><LABEL FOR="EMAIL">Your Email</LABEL></td>
+                    <td><INPUT TYPE="EMAIL" ID="EMAIL" NAME="EMAIL" VALUE=""><BR></td>
+                </tr>
+                <tr>
+                    <td><label for="KH">Your course::</label></td>
+                    <td> <select id="KH">
+                            <option value="Class 1" s>Class 1</option>
+                            <option value="Class 2" s>Class 2</option>
+                            <option value="Class 3" s>Class 3</option>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><LABEL FOR="YC">Your Class</LABEL><br>
+                        <INPUT TYPE="checkbox" ID="YC1" NAME="YC1" VALUE="Đại học">
+                        <label for="YC">Choux Paris</label><br>
+                        <INPUT TYPE="checkbox" ID="YC2" NAME="YC2" VALUE="Cao đẳng">
+                        <label for="YC">French Bistro Desserts</label><br>
+                        <INPUT TYPE="checkbox" ID="YC1" NAME="YC1" VALUE="Đại học">
+                        <label for="YC">French Dessert for Kids</label><br>
+                        <INPUT TYPE="checkbox" ID="YC2" NAME="YC2" VALUE="Cao đẳng">
+                        <label for="YC">Cheese & Wine</label><br>
+                    </td><br>
+                </tr>
+                <tr>
+                    <td><label for="YN">Are you member?</label></td>
+                    <td> <INPUT TYPE="radio" ID="YN" NAME="YN" VALUE="Yes">
+                        <label for="YN">Yes</label>
+                        <INPUT TYPE="radio" ID="YN" NAME="YN" VALUE="No">
+                        <label for="YN">No</label><br>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" name="Register" value="Register">
+    </FORM>
+</head>
+
+</html>
